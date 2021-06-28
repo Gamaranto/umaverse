@@ -163,6 +163,7 @@ const variables = css`
   :root {
     /* COLORS */
     --gray-700: hsl(${COLORS.gray[700]});
+    --gray-600: hsl(${COLORS.gray[600]});
     --gray-500: hsl(${COLORS.gray[500]});
     --gray-300: hsl(${COLORS.gray[300]});
     --white: hsl(${COLORS.white});
@@ -170,6 +171,7 @@ const variables = css`
     --primary: hsl(${COLORS.primary});
     --green: hsl(${COLORS.green});
 
+    --primary-transparent: hsla(${COLORS.primary} / 0.4);
     --gray-transparent-dark: hsla(${COLORS.black} / 0.75);
 
     /* base spacing */

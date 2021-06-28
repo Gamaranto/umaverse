@@ -14,6 +14,7 @@ export const COLORS = {
   gray: {
     300: "0deg 0% 96%",
     500: "0deg 0% 90%",
+    600: "0deg 0% 35%",
     700: "280deg 4% 15%",
   },
   primary: "0deg 100% 65%",
@@ -21,3 +22,11 @@ export const COLORS = {
   white: "0deg 100% 100%",
   black: "0deg 0% 0%",
 };
+
+export const CATEGORIES = [
+  "Yield Dollar",
+  "KPI Options",
+  "Synthetic Assets",
+  "Options",
+] as const;
+export type Category = typeof CATEGORIES[number];

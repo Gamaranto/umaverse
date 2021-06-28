@@ -6,3 +6,8 @@ export * from "./Layout";
 export * from "./Link";
 export * from "./Hero";
 export * from "./Value";
+export * from "./Button";
+export * from "./GettingStarted";
+export * from "./LiveIndicator";
+export * from "./SynthPlaceholderIcon";
+export * from "./LineChart";

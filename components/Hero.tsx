@@ -4,10 +4,14 @@ import { MaxWidthWrapper } from "./Wrapper";
 import { SearchBar } from "./SearchBar";
 import { QUERIES } from "../utils/constants";
 
-export const Hero: React.FC = ({ children }) => {
+type HeroProps = {
+  topAction?: React.ReactNode;
+};
+export const Hero: React.FC<HeroProps> = ({ children, topAction = null }) => {
   return (
     <Wrapper>
       <MaxWidthWrapper>
+        {topAction}
         <SearchBar />
         {children}
       </MaxWidthWrapper>
